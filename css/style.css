@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.header {
+    margin: 30px 0 120px 90px;
+}
+
+.link-menu {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 27px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    color: #fff;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: inline-block;
+    margin-left: 2vw;
+    margin-bottom: 150px;
+
+    img {
+        width: 100%;
+        max-width: 595px;
+        max-height: 500px;
+    }
+}
+
+.container-text {
+    max-width: 500px;
+    display: inline-block;
+    margin-left: 2vw;
+
+    .title {
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 82px;
+        letter-spacing: 0.5961538553237915px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin: 60px 0;
+    }
+
+    .learn-link {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: #6FBF44;
+    }
+}
